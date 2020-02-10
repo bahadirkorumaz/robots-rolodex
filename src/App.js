@@ -19,6 +19,7 @@ function App() {
   return (
       <div className="App">
         <div>
+          <h1>Robots Rolodex</h1>
           <SearchBox
           placeholder='search monsters'
           handleChange={handleChange}

@@ -3,7 +3,7 @@ import './search-box.styles.css';
 
 export default function SearchBox({placeholder, handleChange}) {
     return(
-        <input type='search'
+        <input className='search' type='search'
         placeholder={placeholder} 
         onChange={handleChange}/>
     );
