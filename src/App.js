@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import CardList from './components/card-list/card-list.component.js'
 import SearchBox from './components/search-box/search-box.component';
