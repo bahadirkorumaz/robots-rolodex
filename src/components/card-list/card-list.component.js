@@ -10,7 +10,8 @@ export default function CardList(props) {
     fetch('https://jsonplaceholder.typicode.com/users')
     .then(response => response.json())
     .then(users => setMonsters(users));
-  });
+  }, [props.searchField]
+  );
 
   const filteredMonsters = monsters.filter( monster => monster.name.toLowerCase().includes(props.searchField.toLowerCase()));
 
